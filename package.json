@@ -1,0 +1,21 @@
+{
+  "name": "pallets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "eleventy --serve",
+    "build": "eleventy",
+    "gh": "npx @11ty/eleventy --pathprefix=pallets",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@picocss/pico": "^2.0.6",
+    "eleventy-sass": "^3.0.0-beta.0"
+  }
+}

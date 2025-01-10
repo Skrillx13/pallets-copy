@@ -1,0 +1,9 @@
+# - JavaScript Packages -
+node_modules
+
+# - Website Packages -
+_build
+
+# - Misc -
+.vscode
+.DS_Store
